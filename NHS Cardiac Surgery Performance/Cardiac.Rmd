@@ -1,0 +1,55 @@
+---
+title: "NHS Adult Cardiac Surgery Performance"
+output: html_notebook
+---
+
+Data sourced from [NHS Datasets](https://www.nhs.uk/about-us/nhs-website-datasets/) at [Cardiac Surgery Perfomance Indicators](http://media.nhschoices.nhs.uk/data/foi/TransparencyIndicatorsCardiacSurgeryPerformance.csv) **8th September 2018**
+
+#### Fetching and cleaning the raw data
+```{r}
+raw = read.csv("TransparencyIndicatorsCardiacSurgeryPerformance.csv")
+raw = select(raw, -Text)
+raw$Value = as.numeric(gsub("%", "", raw$Value))
+
+operations = filter(raw, `MetricName` == "Number of operations")
+operations = rename(operations, `Operations` = "Value")
+operations = select(operations, -MetricName)
+
+successRate = filter(raw, `MetricName` != "Number of operations")
+successRate = rename(successRate, `Success Rate` = "Value")
+successRate = select(successRate, OrganisationID, `Success Rate`)
+
+surgery = merge(operations, successRate, by = "OrganisationID")
+surgery$`Failed Operations` = trunc((surgery$Operations / 100) * surgery$`Success Rate`)
+surgery$`Successful Operations` = trunc(surgery$Operations - ((surgery$Operations / 100) * surgery$`Success Rate`))
+
+```
+
+We now have the raw data lets see a quick summary
+```{r}
+summary(select(surgery, -OrganisationID, -OrganisationCode, -OrganisationName))
+```
+
+...now plot the success rate 
+
+```{r}
+plot(surgery$Operations, surgery$`Success Rate`,
+       main="Adult Cardiac Surgery No. Operations vs Success Rate",
+       xlab="No. Operations",
+       ylab="Success Rate",
+       col= "blue", pch = 1, cex = 1, lty = "solid", lwd = 2)
+
+text(surgery$Operations, surgery$`Success Rate`, labels=surgery$OrganisationCode, cex= 0.5, pos=2)
+```
+
+The data arranged by 'Success Rate` in descending order
+```{r}
+arrange(select(surgery, OrganisationID, OrganisationCode, OrganisationName, Operations, `Successful Operations`, `Failed Operations`, `Success Rate`), desc(`Success Rate`))
+
+```
+
+#### Observations
+
+**RJ701** St George's Hospital London, jumps out at you immediately when viewing the chart, it seems to be performing particularly bad.
+
+**RGM21** Royal Papworth Hospital. Given the number of operations performed it achieves a consistently high level of successfully performed procedures. 

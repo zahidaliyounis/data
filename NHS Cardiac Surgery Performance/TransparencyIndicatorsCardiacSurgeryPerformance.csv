@@ -1,0 +1,61 @@
+OrganisationID,OrganisationCode,OrganisationName,MetricName,Value,Text
+39966,R1HM0,St Bartholomew's Hospital,Number of operations,3434,operations
+39966,R1HM0,St Bartholomew's Hospital,Risk-adjusted in hospital survival rate,97.89%,As expected with a value of 97.89%
+39987,RA701,Bristol Royal Infirmary,Number of operations,4020,operations
+39987,RA701,Bristol Royal Infirmary,Risk-adjusted in hospital survival rate,98.13%,As expected with a value of 98.13%
+40188,RBQHQ,Liverpool Heart and Chest Hospital,Number of operations,5534,operations
+40188,RBQHQ,Liverpool Heart and Chest Hospital,Risk-adjusted in hospital survival rate,97.79%,As expected with a value of 97.79%
+40337,RDDH0,Basildon University Hospital,Number of operations,2598,operations
+40337,RDDH0,Basildon University Hospital,Risk-adjusted in hospital survival rate,98.46%,As expected with a value of 98.46%
+40650,RGM21,Royal Papworth Hospital,Number of operations,5673,operations
+40650,RGM21,Royal Papworth Hospital,Risk-adjusted in hospital survival rate,98.58%,As expected with a value of 98.58%
+40843,RHM01,Southampton General Hospital,Number of operations,3663,operations
+40843,RHM01,Southampton General Hospital,Risk-adjusted in hospital survival rate,98.88%,As expected with a value of 98.88%
+40861,RHQNG,Northern General Hospital,Number of operations,2735,operations
+40861,RHQNG,Northern General Hospital,Risk-adjusted in hospital survival rate,97.85%,As expected with a value of 97.85%
+40919,RJ122,St Thomas',Number of operations,2951,operations
+40919,RJ122,St Thomas',Risk-adjusted in hospital survival rate,98.08%,As expected with a value of 98.08%
+40949,RJ701,St George's Hospital (London),Number of operations,2505,operations
+40949,RJ701,St George's Hospital (London),Risk-adjusted in hospital survival rate,96.83%,As expected with a value of 96.83%
+41013,RJE01,Royal Stoke University Hospital,Number of operations,2465,operations
+41013,RJE01,Royal Stoke University Hospital,Risk-adjusted in hospital survival rate,98.38%,As expected with a value of 98.38%
+41042,RJZ01,King's College Hospital,Number of operations,2439,operations
+41042,RJZ01,King's College Hospital,Risk-adjusted in hospital survival rate,97.93%,As expected with a value of 97.93%
+41066,RK950,Derriford Hospital,Number of operations,3152,operations
+41066,RK950,Derriford Hospital,Risk-adjusted in hospital survival rate,98.27%,As expected with a value of 98.27%
+41070,RKB01,University Hospital (Coventry),Number of operations,2259,operations
+41070,RKB01,University Hospital (Coventry),Risk-adjusted in hospital survival rate,97.73%,As expected with a value of 97.73%
+41093,RL403,New Cross Hospital,Number of operations,2516,operations
+41093,RL403,New Cross Hospital,Risk-adjusted in hospital survival rate,98.98%,As expected with a value of 98.98%
+41159,RM202,Wythenshawe Hospital,Number of operations,2832,operations
+41159,RM202,Wythenshawe Hospital,Risk-adjusted in hospital survival rate,98.54%,As expected with a value of 98.54%
+41611,RR801,Leeds General Infirmary,Number of operations,3276,operations
+41611,RR801,Leeds General Infirmary,Risk-adjusted in hospital survival rate,98.07%,As expected with a value of 98.07%
+41754,RRK15,Queen Elizabeth Hospital Birmingham,Number of operations,1572,operations
+41754,RRK15,Queen Elizabeth Hospital Birmingham,Risk-adjusted in hospital survival rate,96.44%,As expected with a value of 96.44%
+41804,RRV03,University College Hospital,Number of operations,1774,operations
+41804,RRV03,University College Hospital,Risk-adjusted in hospital survival rate,98%,As expected with a value of 98%
+41841,RT301,Harefield Hospital,Number of operations,2744,operations
+41841,RT301,Harefield Hospital,Risk-adjusted in hospital survival rate,97.51%,As expected with a value of 97.51%
+41842,RT302,Royal Brompton Hospital,Number of operations,2246,operations
+41842,RT302,Royal Brompton Hospital,Risk-adjusted in hospital survival rate,97.85%,As expected with a value of 97.85%
+41862,RTD01,Freeman Hospital,Number of operations,2093,operations
+41862,RTD01,Freeman Hospital,Risk-adjusted in hospital survival rate,97.48%,As expected with a value of 97.48%
+41987,RTH08,John Radcliffe Hospital,Number of operations,2369,operations
+41987,RTH08,John Radcliffe Hospital,Risk-adjusted in hospital survival rate,98.03%,As expected with a value of 98.03%
+42131,RTRAT,The James Cook University Hospital,Number of operations,3046,operations
+42131,RTRAT,The James Cook University Hospital,Risk-adjusted in hospital survival rate,98.11%,As expected with a value of 98.11%
+42596,RW3MR,Manchester Royal Infirmary,Number of operations,2062,operations
+42596,RW3MR,Manchester Royal Infirmary,Risk-adjusted in hospital survival rate,97.92%,As expected with a value of 97.92%
+42661,RWA16,Castle Hill Hospital,Number of operations,1944,operations
+42661,RWA16,Castle Hill Hospital,Risk-adjusted in hospital survival rate,97.48%,As expected with a value of 97.48%
+42681,RWEAE,Glenfield Hospital,Number of operations,3243,operations
+42681,RWEAE,Glenfield Hospital,Risk-adjusted in hospital survival rate,97.89%,As expected with a value of 97.89%
+42880,RX1CC,Nottingham University Hospitals NHS Trust - City Campus,Number of operations,1719,operations
+42880,RX1CC,Nottingham University Hospitals NHS Trust - City Campus,Risk-adjusted in hospital survival rate,97.47%,As expected with a value of 97.47%
+43073,RXH01,Royal Sussex County Hospital,Number of operations,1656,operations
+43073,RXH01,Royal Sussex County Hospital,Risk-adjusted in hospital survival rate,98%,As expected with a value of 98%
+43136,RXL01,Blackpool Victoria Hospital,Number of operations,3457,operations
+43136,RXL01,Blackpool Victoria Hospital,Risk-adjusted in hospital survival rate,97.85%,As expected with a value of 97.85%
+43802,RYJ03,Hammersmith Hospital,Number of operations,1958,operations
+43802,RYJ03,Hammersmith Hospital,Risk-adjusted in hospital survival rate,98.02%,As expected with a value of 98.02%
